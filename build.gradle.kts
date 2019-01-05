@@ -1,15 +1,3 @@
-buildscript {
-    val kotlinVersion = "1.3.11"
-    repositories {
-      mavenCentral()
-      maven(url = "https://dl.bintray.com/jetbrains/kotlin-native-dependencies")
-    }
-    dependencies {
-      classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
-      classpath("org.jetbrains.kotlin:kotlin-native-gradle-plugin:$kotlinVersion")
-    }
-}
-
 group = "com.adrianrafo"
 version = "0.0.1"
 
